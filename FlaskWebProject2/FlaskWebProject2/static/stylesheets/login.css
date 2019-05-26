@@ -1,0 +1,91 @@
+/*背景图设置*/
+body {
+  background: url("../images/login.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #d8aaaa;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+
+/*顶部导航栏*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  white-space: nowrap;
+  width: 60px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #13556b;
+}
+
+/*渲染表单*/
+.wrap {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 600px;
+  height: 600px;
+  background-color: transparent;
+}
+
+.login h1 {
+  color: #f5f1f0;
+}
+
+.login {
+  width: 300px;
+  height: 300px;
+  padding: 150px;
+  background-color: transparent;
+  background-clip: content-box;
+}
+
+input[class="type_in"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+input[class="push"] {
+  background-color: #813772;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.push:hover {
+  background-color: #062f4f;
+}

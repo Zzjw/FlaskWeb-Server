@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/stylesheets/login.css">
+    <script type="text/javascript" src="../static/javascripts/login.js"></script>
+    <script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li style="float:right"><a class="active" href="#about">About</a></li>
+    </ul>
+    <div class="wrap">
+        <div class="login">
+            <h1>Login</h1>
+            <form id="login_form" onsubmit="false;">
+                <input class="type_in" type="text" name="username" placeholder="your name" id="username"><br>
+                <input class="type_in" type="password" name="password" placeholder="your password" id="password" onkeydown="Login();" ><br>
+                <input class="push" type="button" value="Submit" onclick="return login();">
+            </form>
+        </div>
+    </div>
+    <!--<script src="./day1.js"></script>-->
+
+    <a href="../register" id="register">注册</a>
+</body>
+
+</html>

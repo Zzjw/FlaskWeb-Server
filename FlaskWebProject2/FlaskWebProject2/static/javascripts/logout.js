@@ -1,0 +1,11 @@
+logout=function(){
+	$.ajax({
+		type:'POST',
+		url:'/logout',
+		data:('logout'),
+		dataType:"text",
+		success:function(data){
+			window.location.href="/";
+		}
+	})
+}

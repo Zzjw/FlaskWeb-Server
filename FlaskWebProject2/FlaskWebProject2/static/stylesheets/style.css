@@ -1,0 +1,32 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+selector{
+	color:#ff0000;
+
+}
+
+/*h1{
+	font-family: Garamond,"Times New Roman",serif;
+	color:rgb(0,0,255);
+}
+p{
+	font-family: "Courier New";
+	color:rgb(255,0,0);
+	background: black
+}
+h2{
+	font-family: "SimSon";
+	color:rgb(0,255,255);
+	background: white
+}
+h3{
+	font-family: "SimHei";
+	color:rgb(0,255,255);
+	background: green
+}*/

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c2f52aec-048f-4e9c-90a3-23e34df46e42</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>FlaskWebProject2</Name>
+    <RootNamespace>FlaskWebProject2</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-64</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FlaskWebProject2\backend.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskWebProject2\backend_method.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskWebProject2\DBclass.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="runserver.py" />
+    <Compile Include="FlaskWebProject2\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FlaskWebProject2\" />
+    <Folder Include="FlaskWebProject2\static\images\" />
+    <Folder Include="FlaskWebProject2\static\" />
+    <Folder Include="FlaskWebProject2\static\images\User_Pic\" />
+    <Folder Include="FlaskWebProject2\static\javascripts\" />
+    <Folder Include="FlaskWebProject2\static\stylesheets\" />
+    <Folder Include="FlaskWebProject2\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FlaskWebProject2\static\images\1.ico" />
+    <Content Include="FlaskWebProject2\static\images\group.ico" />
+    <Content Include="FlaskWebProject2\static\images\konzem.jpg" />
+    <Content Include="FlaskWebProject2\static\images\login.jpg" />
+    <Content Include="FlaskWebProject2\static\images\User_Pic\yhc.jpg" />
+    <Content Include="FlaskWebProject2\static\images\User_Pic\ysy.jpg" />
+    <Content Include="FlaskWebProject2\static\images\User_Pic\zjw.jpg" />
+    <Content Include="FlaskWebProject2\static\images\User_Pic\zml.jpg" />
+    <Content Include="FlaskWebProject2\static\javascripts\1.js" />
+    <Content Include="FlaskWebProject2\static\javascripts\login.js" />
+    <Content Include="FlaskWebProject2\static\javascripts\logout.js" />
+    <Content Include="FlaskWebProject2\static\javascripts\register.js" />
+    <Content Include="FlaskWebProject2\static\stylesheets\login.css" />
+    <Content Include="FlaskWebProject2\static\stylesheets\mod.css" />
+    <Content Include="FlaskWebProject2\static\stylesheets\style.css" />
+    <Content Include="FlaskWebProject2\templates\login.html" />
+    <Content Include="FlaskWebProject2\templates\modle.html" />
+    <Content Include="FlaskWebProject2\templates\register.html" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
