@@ -1,2 +1,4 @@
 # FlaskWebServer
 用python flask框架实现的web服务器框架
+
+IDE是Visual studio 直接用vs打开即可，可能要配置一下python用pip补充一下没有的包
